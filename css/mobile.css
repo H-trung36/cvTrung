@@ -1,0 +1,243 @@
+@media (max-width: 768px) {
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+  }
+  .topnav {
+    background-color: white;
+    border: 1px solid #ccc;
+    width: auto;
+    display: block;
+    flex-direction: column;
+    padding: 5px;
+  }
+
+  .topnav a {
+    color: black;
+
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    margin: 5px 0;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .box {
+    border-right: 1px solid #ccc;
+    .first-text {
+      font-weight: bold;
+      font-size: 25px;
+    }
+  }
+  .first-text {
+    font-size: 15px;
+    align-items: left;
+    display: none;
+  }
+  .second-text {
+    color: cadetblue;
+    font-size: 15px;
+    align-items: left;
+    display: none;
+  }
+  .gridbox {
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 30px;
+  }
+  .d2 {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .d1 {
+    background: #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .ttnn {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .c1 {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .c4 {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+  }
+  .c5 {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+  }
+  .c6 {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+  }
+  .tt {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  .rad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .rad1 {
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    color: aquamarine;
+  }
+  .rad2 {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .the {
+    background: #199cdb;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 45px;
+    border-radius: 15%;
+  }
+
+  .the2 {
+    background: grey;
+    display: inline-block;
+    height: 5px;
+    margin-right: 10px;
+    width: 45px;
+    border-radius: 15%;
+  }
+
+  .ccgt {
+    background: #ccc;
+    display: grid;
+    grid-template-columns: 1fr;
+
+    width: 100%;
+    padding: 5px;
+    padding-left: 5px;
+    grid-row-gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .ccgt1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 30px;
+    padding: 2px;
+  }
+  .img1 {
+    width: 200px;
+    height: 100px;
+  }
+  .tt1 {
+    border-top: 2px solid #d69f8d;
+  }
+  .tt2 {
+    border-bottom: 2px solid #d69f8d;
+  }
+
+  .da {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .pro1 {
+    width: 400px;
+    height: 300px;
+  }
+
+  .da1 {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 1px;
+    padding: 20px;
+  }
+
+  .pt2 {
+    text-align: left;
+    border: 1px solid black;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  .pt3 {
+    text-align: left;
+    border: 1px solid black;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  .nd1 {
+    background-color: #199cdb;
+    border-radius: 30%;
+    padding: 3px;
+    margin-right: 20px;
+    color: white;
+  }
+
+  table,
+  tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  .lhe {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 75px;
+  }
+}
+.hide {
+  display: none;
+}
+.no {
+  display: none;
+}

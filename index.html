@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>Assignment02</title>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src=" images/banner.jpg"
+        style="width: 100%; height: 400px; object-fit: unset"
+      />
+      <div class="centered">
+        <h1>Ngô Lê Hoài Trung</h1>
+        <h2 style="font-size: 15px; font-family: Arial; font-weight: normal">
+          Full stack developer
+        </h2>
+      </div>
+    </div>
+    <div class="topnav">
+      <a class="box" href="#tt" style="border-left: 1px solid #ccc"
+        ><i class="fa fa-fw fa-user" style="color: aqua"></i>Thông tin</a
+      >
+      <a class="box" href="#ll"
+        ><i class="fa fa-file-text-o" style="color: aqua"></i>Lý lịch
+      </a>
+      <a class="box" style="text-align: center; line-height: 10px">
+        <p class="first-text" style="font-size: 20px">Ngô Lê Hoài Trung</p>
+        <p class="second-text">Full stack developer</p>
+      </a>
+      <a class="box" href="#chung chi"
+        ><i class="fa fa-fw fa-envelope" style="color: aqua"></i>Chứng chỉ</a
+      >
+      <a class="box" href="#du an"
+        ><i class="fa fa-star" style="color: aqua"></i>Dự án</a
+      >
+    </div>
+    <div class="gridbox">
+      <div class="d1">
+        <b style="font-size: 15px">MỤC TIÊU NGHỀ NGHIỆP</b>
+        <p>
+          Là một sinh viên của chương trình chứng chỉ Doanh Nghiệp của FUNiX. Em
+          mong muốn mình sẽ đi làm việc với vị trí Fullstack Developer, có thể
+          vận dụng những kiến thức đã được trau dồi và không ngừng học hỏi phát
+          triển bản thân, cũng như hoàn thành tốt nhất công việc được giao.
+        </p>
+      </div>
+
+      <div class="d2">
+        <div id="formContainer">
+          <form id="emailForm">
+            <label for="email">Enter email</label>
+            <input type="email" id="email" required />
+            <button type="submit">Submit</button>
+            <div id="error" class="hide"></div>
+          </form>
+        </div>
+        <div id="infoContainer" class="hide">
+          <b style="font-size: 15px">Thông tin cá nhân</b>
+          <p>Giới tính: Nam</p>
+          <p>Điện thoại:0941520179</p>
+          <p>Email:trungnlhFX34284.funix.edu.vn</p>
+          <div style="letter-spacing: 10px; color: aqua">
+            <i class="fa fa-facebook"></i><i class="fa fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ttnn">
+      <div class="c1 p" onmouseover="handle(this)" onmouseout="hand(this)">
+        <div class="tt">
+          <strong style="font-size: 30px">Kinh nghiệm</strong>
+          <i class="fa fa-briefcase" style="font-size: 50px"></i>
+        </div>
+        <div class="no">
+          <b>Công ty Y</b>
+          <p>05/2022 - Hiện tại</p>
+          <p>- Full Stack Developer</p>
+          <p>
+            - Xây dựng, phát triển Website dựa trên thiết kế và yêu cẩu đã có.
+          </p>
+          <p>- Phân tích và thiết kế Database, sử dụng các hệ quản trị CSDL</p>
+          <b>Công ty X</b>
+          <p>06/2021- 04/2022</p>
+          <p>Web Designer</p>
+          <p>- Thiết kế Website dự trên yêu cầu của khách hàng.</p>
+          <p>- Sử dụng các công cụ: Figma, Canva, PTS.</p>
+        </div>
+        <div class="an">
+          <button
+            class="btn btn-warning vm"
+            type="button"
+            onclick="handlevm(this)"
+          >
+            View more
+          </button>
+          <button class="btn btn-warning vl" type="button">View less</button>
+        </div>
+      </div>
+      <div class="c1 p" onmouseover="handle(this)" onmouseout="hand(this)">
+        <div class="tt">
+          <strong style="font-size: 30px">Học vấn</strong>
+          <i class="fa fa-pencil" style="font-size: 50px"></i>
+        </div>
+        <div class="no">
+          <b>FUNIX</b>
+          <p>06/2023 - 05/2024</p>
+          <p>06/2023 05/2024</p>
+          <p>- GPA: 9/10</p>
+          <b>Kĩ sư-Học viện công nghệ Bưu chính viễn thông</b>
+          <p>08/2022 - 07/2027</p>
+          <p>- Chuyên ngành: Kỹ thuật phần mểm.</p>
+          <p>- GPA: 3.2/4</p>
+          <b>IELTS FIGHTER</b>
+          <p>08/2023 - 02/2024</p>
+          <p>- Hệ từ xa, Chuyên ngành: Ngôn ngữ Anh</p>
+          <p>- GPA: 2.8 /4</p>
+        </div>
+        <div class="an">
+          <button
+            class="btn btn-warning vm"
+            type="button"
+            onclick="handlevm(this)"
+          >
+            View more
+          </button>
+          <button class="btn btn-warning vl" type="button">View less</button>
+        </div>
+      </div>
+      <div class="c1 p" onmouseover="handle(this)" onmouseout="hand(this)">
+        <div class="tt">
+          <strong style="font-size: 30px">Hoạt động</strong>
+          <i class="fa fa-briefcase" style="font-size: 50px"></i>
+        </div>
+        <div class="no">
+          <b>ITMC</b>
+          <p>03/2023 - 05/2023</p>
+          <p>Bằng ITMC</p>
+          <p>- Đề tài: Trang web về phân loại rác thải.</p>
+          <b>Câu lạc bộ cầu lông</b>
+          <p>08/2023</p>
+          <p>- Thành viên</p>
+          <b>Câu lạc bộ Kết Nối</b>
+          <p>08/2023</p>
+          <p>- Hỗ trợ tổ chức từ thiện ở tp.HCM</p>
+        </div>
+        <div class="an">
+          <button
+            class="btn btn-warning vm"
+            type="button"
+            onclick="handlevm(this)"
+          >
+            View more
+          </button>
+          <button class="btn btn-warning vl" type="button">View less</button>
+        </div>
+      </div>
+      <div class="c4 p" onmouseover="handle(this)" onmouseout="hand(this)">
+        <div class="tt">
+          <strong style="font-size: 30px">Sở thích</strong>
+          <i class="fa fa-wpexplorer" style="font-size: 50px"></i>
+        </div>
+        <div class="no">
+          <div class="rad">
+            <div class="rad1"><i class="fa fa-volume-up"></i></div>
+            <div class="rad1"><i class="fa fa-microphone"></i></div>
+            <div class="rad1"><i class="fa fa-microphone"></i></div>
+            <div class="rad1"><i class="fa fa-microphone"></i></div>
+          </div>
+          <div class="rad">
+            <a class="rad2">Âm nhạc</a>
+            <a class="rad2">Chơi game</a><a class="rad2">Du Lịch</a
+            ><a class="rad2">Nấu ăn</a>
+          </div>
+        </div>
+        <div class="an">
+          <button
+            class="btn btn-warning vm"
+            type="button"
+            onclick="handlevm(this)"
+          >
+            View more
+          </button>
+          <button class="btn btn-warning vl" type="button">View less</button>
+        </div>
+      </div>
+
+      <div class="c5 p" onmouseover="handle(this)" onmouseout="hand(this)">
+        <div class="tt">
+          <strong style="font-size: 30px">Ngôn ngữ</strong>
+          <i class="fa fa-microphone" style="font-size: 50px"></i>
+        </div>
+        <div class="no">
+          <p style="font-weight: bold">Tiếng anh - IELTS 7.0</p>
+          <span class="the"></span>
+          <span class="the"></span>
+          <span class="the2"></span>
+        </div>
+        <div class="an">
+          <button
+            class="btn btn-warning vm"
+            type="button"
+            onclick="handlevm(this)"
+          >
+            View more
+          </button>
+          <button class="btn btn-warning vl" type="button">View less</button>
+        </div>
+      </div>
+      <div class="c6 p" onmouseover="handle(this)" onmouseout="hand(this)">
+        <div class="tt">
+          <strong style="font-size: 30px">Kĩ năng</strong>
+          <i class="fa fa-wrench" style="font-size: 50px"></i>
+        </div>
+        <div class="no">
+          <p style="font-weight: bold">HTML-CSS: Fundamental</p>
+          <span class="the"></span>
+          <span class="the"></span>
+          <span class="the2"></span>
+          <p style="font-weight: bold">Javascript: Intermediate</p>
+          <span class="the"></span>
+          <span class="the"></span>
+          <span class="the2"></span>
+          <p style="font-weight: bold">NodeJS: Intermediate</p>
+          <span class="the"></span>
+          <span class="the"></span>
+          <span class="the"></span>
+          <p style="font-weight: bold">Bootstrap 5: Fundamental</p>
+          <span class="the"></span>
+          <span class="the2"></span>
+          <span class="the2"></span>
+        </div>
+        <div class="an">
+          <button
+            class="btn btn-warning vm"
+            type="button"
+            onclick="handlevm(this)"
+          >
+            View more
+          </button>
+          <button class="btn btn-warning vl" type="button">View less</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ccgt">
+      <strong style="font-size: 30px">Chứng chỉ - Giải thưởng</strong>
+      <strong></strong>
+      <div class="tt2">
+        <div class="ccgt1">
+          <div><img class="img1" src="images/Cert_DBI.png" /></div>
+          <div>
+            <p style="font-weight: bold">CHỨNG CHỈ LẬP TRÌNH WEB-FUNIX</p>
+            <p>- Chứng chỉ thuộc chương trình CCDN</p>
+            <p>- GPA:8.6</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="ccgt1">
+          <div><img class="img1" src="images/Cert_PRF.png" /></div>
+          <div>
+            <p style="font-weight: bold">
+              CHỨNG CHỈ LẬP TRÌNH JAVASCRIPT-FUNIX
+            </p>
+            <p>- Chứng chỉ thuộc chương trình CCDN</p>
+            <p>- GPA:8.9</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tt1">
+        <div class="ccgt1">
+          <div><img class="img1" src="images/Cert_WEB.png" /></div>
+          <div>
+            <p style="font-weight: bold">CHỨNG CHỈ THIẾT KẾ DATABASE-FUNIX</p>
+            <p>- Chứng chỉ thuộc chương trình CCDN</p>
+            <p>- GPA:8.0</p>
+          </div>
+        </div>
+      </div>
+      <div class="tt1"></div>
+    </div>
+    <strong style="font-size: 50px; margin-left: 20px">Dự án</strong>
+    <div class="da">
+      <div class="da1">
+        <img class="pro1" src="images/project_1.png" />
+        <div class="pt2">CV CÁ NHÂN</div>
+        <div class="pt3">
+          <a class="nd1">2024</a>
+          <a style="margin-right: 20px"
+            ><i class="fa fa-user" style="margin-right: 5px"></i>Funix</a
+          >
+          <a
+            ><i class="fa fa-lightbulb-o" style="margin-right: 5px"></i>
+            Developer</a
+          >
+        </div>
+        <table>
+          <tr>
+            <td>Mô tả</td>
+            <td>
+              Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kỹ
+              năng nghề nghiệp.
+            </td>
+          </tr>
+          <tr>
+            <td>Nhiệm vụ</td>
+            <td>Phát triễn code - Review code - Tối ưu code - Xử lý lỗi</td>
+          </tr>
+          <tr>
+            <td>Công nghệ</td>
+            <td>HTML, CSS</td>
+          </tr>
+        </table>
+      </div>
+      <div class="da1">
+        <img class="pro1" src="images/project_2.png" />
+        <div class="pt2">TRANG WEB QUẢN LÝ THÚ CƯNG</div>
+        <div class="pt3">
+          <a class="nd1">2024</a>
+          <a style="margin-right: 20px"
+            ><i class="fa fa-user" style="margin-right: 5px"></i>Funix</a
+          >
+          <a
+            ><i class="fa fa-lightbulb-o" style="margin-right: 5px"></i>
+            Developer</a
+          >
+        </div>
+        <table>
+          <tr>
+            <td>Mô tả</td>
+            <td>
+              Ứng dụng giúp quản lý các thông tin của thú cưng như: Cân nặng,
+              giống, tình trạng tiêm chủng,.. Bao gồm các chức năng thêm / sửa/
+              xóa.
+            </td>
+          </tr>
+          <tr>
+            <td>Nhiệm vụ</td>
+            <td>Phát triễn code - Review code - Tối ưu code - Xử lý lỗi</td>
+          </tr>
+          <tr>
+            <td>Công nghệ</td>
+            <td>HTML, CSS, Javascript</td>
+          </tr>
+        </table>
+      </div>
+      <div class="da1">
+        <img class="pro1" src="images/project_3.png" />
+        <div class="pt2">CV CÁ NHÂN</div>
+        <div class="pt3">
+          <a class="nd1">2024</a>
+          <a style="margin-right: 20px"
+            ><i class="fa fa-user" style="margin-right: 5px"></i>Funix</a
+          >
+          <a
+            ><i class="fa fa-lightbulb-o" style="margin-right: 5px"></i>
+            Developer</a
+          >
+        </div>
+        <table>
+          <tr>
+            <td>Mô tả</td>
+            <td>
+              Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thế
+              tìm kiếm các tin tức dựa theo các từ khóa.
+            </td>
+          </tr>
+          <tr>
+            <td>Nhiệm vụ</td>
+            <td>Phát triễn code - Review code - Tối ưu code - Xử lý lỗi</td>
+          </tr>
+          <tr>
+            <td>Công nghệ</td>
+            <td>HTML, CSS, Javascript</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="lhe">
+      <a
+        ><i
+          style="color: blue; padding-right: 10px"
+          class="fa fa-facebook-square"
+        ></i>
+        Facebook</a
+      >
+      <a style="padding-left: 30px"
+        ><i
+          style="color: blue; padding-right: 10px"
+          class="fa fa-linkedin-square"
+        ></i>
+        Linkedin</a
+      >
+      <a style="padding-left: 30px"
+        ><i style="color: blue; padding-right: 10px" class="fa fa-github"></i>
+        Github</a
+      >
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
